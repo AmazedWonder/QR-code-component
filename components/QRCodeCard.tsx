@@ -5,13 +5,13 @@ import Image from 'next/image';
 
 export default function QRCodeCard() {
     return (
-        <div className="">
+        <div className="max-w-xs mx-auto bg-white p-4 rounded-2xl shadow-lg flex flex-col items-center gap-6 text-center dark:bg-[#1c1c1c] dark:text-white">
             <Image
                 src="/images/image-qr-code.png"
                 alt='QR Code'
                 width={288}
                 height={288}
-                className=''
+                className='rounded-xl'
             />
 
             <div className="">
